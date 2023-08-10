@@ -21,7 +21,7 @@ setTimeout(function() {
         bt.style.zIndex = "1045";
 
         const img = document.createElement("img");
-        img.src = "https://imgur.com/EbODBB6.png";
+        img.src = "https://imgur.com/8KAZt2n.png";
         img.style.width = "100%";
         img.style.height = "100%";
         img.style.position = "absolute";
