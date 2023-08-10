@@ -21,7 +21,7 @@ setTimeout(function() {
         bt.style.zIndex = "1045";
 
         const img = document.createElement("img");
-        img.src = "https://imgur.com/8KAZt2n.png";
+        img.src = "https://i.pinimg.com/564x/95/41/f6/9541f678e70e99b71bf47c86543150ca.jpg";
         img.style.width = "100%";
         img.style.height = "100%";
         img.style.position = "absolute";
