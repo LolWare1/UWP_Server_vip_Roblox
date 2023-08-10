@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "UWP Private Servers",
+    "description": "Entra em vip server pelo roblox UWP :O",
+    "version": "1.0.0",
+    "icons": {
+        "16": "logo/logo-16.png",
+        "48": "logo/logo-48.png",
+        "128": "logo/logo-128.png"
+    },
+    "options_page": "settings/settings.html",
+    "action": {
+        "default_title": "UWP Private Servers",
+        "default_popup": "popup/popup.html"
+    },
+    "permissions": [],
+    "host_permissions": [
+		"*://*.rbxcdn.com/*",
+        "*://*.roblox.com/*"
+    ],
+    "background": {
+        "service_worker": "service-worker.js"
+    },
+    "content_scripts": [{
+        "js": ["foreground.js"],
+        "matches": ["https://www.roblox.com/*"]
+    }]
+}
