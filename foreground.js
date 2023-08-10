@@ -21,7 +21,7 @@ setTimeout(function() {
         bt.style.zIndex = "1045";
 
         const img = document.createElement("img");
-        img.src = "https://media.discordapp.net/attachments/875642875944271882/1051943980679573554/image.png";
+        img.src = "https://imgur.com/EbODBB6.png";
         img.style.width = "100%";
         img.style.height = "100%";
         img.style.position = "absolute";
